@@ -3,6 +3,9 @@
 * {
   font-family: 'Raleway', sans-serif;
 }
+html, .summary-header {
+  background: #f9f4f5!important;
+}
 
 .widget-header {
   background-color: #5c7d77;
@@ -33,7 +36,34 @@
 }
 
 
+.input-text, .dropdown-toggle {
+  border-radius: 2rem!important;
+}
+.summary-header-icon, .link {
+    color: #273d3e!important;
+}
 
-.input-text. .dropdown-toggle {
-  border-radius: 2rem;
+.container-fluid {
+  background: white;
+}
+
+.multiDateTab {
+  color: white;
+  background: #5c7d77;
+}
+
+.singleDateTab:after, .multiDateTab:after {
+      border-bottom: 5px solid #273d3e!important;
+}
+
+.DayPicker-Caption {
+  color: #273d3e!important;
+}
+
+.DayPicker-Day--selected{
+   background: #5c7d77!important;
+}
+
+.summary-header-title {
+  color: #464742;
 }
