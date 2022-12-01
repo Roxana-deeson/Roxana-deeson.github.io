@@ -21,6 +21,19 @@
   color: black;
 }
 
+.btn-primary:hover {
+  background: #d0a75b!important;
+  filter: brightness(80%);
+  color: black;
+}
+
+.btn-primary:focus {
+  border-color: #d0a75b;
+  box-shadow: 0 0 0 0.2rem #d0a75b80;
+}
+
+
+
 .input-text. .dropdown-toggle {
   border-radius: 2rem;
 }
