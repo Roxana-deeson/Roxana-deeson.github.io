@@ -8,7 +8,7 @@ html, .summary-header {
 }
 
 .widget-header {
-  background-color: #5c7d77;
+  background-color: #5c7d77!important;
   color: black;
   font-widget: 500;
 }
