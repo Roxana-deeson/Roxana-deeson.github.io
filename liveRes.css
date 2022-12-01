@@ -1,7 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+.widget-header {
+  background-color: #5c7d77;
+  color: 
+}
+
+.line, .header-title {
+  color: white;
+}
+
 .header-content {
   background-color: red;
+
 }
 
 .btn-primary {
-  background-color: red;
+  background-color: #d0a75b;
+  border-radius: 2rem;
+  border: none;
+  color: black;
+}
+
+.input-text. .dropdown-toggle {
+  border-radius: 2rem;
 }
