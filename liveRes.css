@@ -3,18 +3,73 @@
 * {
   font-family: 'Raleway', sans-serif;
 }
-html, .summary-header {
-  background: #f9f4f5!important;
+
+
+.body {
+  background-color: #f9f4f5;
 }
 
-.widget-header {
-  background-color: #5c7d77!important;
-  color: black;
-  font-widget: 500;
+.eventJourneyContainer .widget-header {
+  background-color: #5c7d77;
 }
 
-.line, .header-title {
+.eventJourneyContainer .widget-header .line {
+  border: 1px solid #d0a75b;
+  opacity: 1;
+}
+
+.eventJourneyContainer .widget-header .booking-reference .reference-header {
+  color: #fff;
+}
+
+.eventJourneyContainer .widget-header .booking-reference .reference-number {
+  color: #d0a75b;
+}
+.eventJourneyContainer .summary-header .summary-header-title {
+  color: #273d3e;
+}
+
+.dateSelection .DayPicker-Caption {
+  text-align: center;
+  color: #273d3e;
+}
+
+.dateSelection .DayPicker-Day--selected:not(.DayPicker-Day--disabled):not(.DayPicker-Day--outside) {
+  background-color: #5c7d77;
+}
+
+.nav-tab .nav-link.active::after {
+  border-bottom: 5px solid #273d3e;
+}
+
+.nav-tab .nav-link:hover::after {
+  border-bottom: 5px solid #5c7d77;
+}
+
+.dateSelection .timePickerColumn .time-select-container .time-select__option--is-selected{
+  background: #5c7d77;
   color: white;
+
+}
+
+.nav-tab .nav-link {
+  color: #5c7d77;
+}
+
+
+.nav-tab .nav-link.active {
+  color: #273d3e;
+}
+
+.summary-header .link {
+  color: #273d3e!important;
+}
+
+.dateSelection .btn-outline-primary:not(:disabled):not(.disabled).active {
+  background-color: #d0a75b;
+  border-radius: 2rem;
+  border: none;
+  color: black;
 }
 
 .btn-primary {
@@ -38,32 +93,4 @@ html, .summary-header {
 
 .input-text, .dropdown-toggle {
   border-radius: 2rem!important;
-}
-.summary-header-icon, .link {
-    color: #273d3e!important;
-}
-
-.container-fluid {
-  background: white;
-}
-
-.multiDateTab {
-  color: white;
-  background: #5c7d77;
-}
-
-.singleDateTab:after, .multiDateTab:after {
-      border-bottom: 5px solid #273d3e!important;
-}
-
-.DayPicker-Caption {
-  color: #273d3e!important;
-}
-
-.DayPicker-Day--selected{
-   background: #5c7d77!important;
-}
-
-.summary-header-title {
-  color: #464742;
 }
