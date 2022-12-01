@@ -73,11 +73,19 @@
   color: #273d3e!important;
 }
 
+.summary-header .link:hover {
+  color: #5c7d77!important;
+}
+
+.dateSelection .btn-outline-primary {
+  color: #464742;;
+}
+
 .dateSelection .btn-outline-primary:not(:disabled):not(.disabled).active {
   background-color: #d0a75b;
   border-radius: 2rem;
   border: none;
-  color: black;
+  color: #464742;
 }
 
 .btn-primary {
@@ -114,11 +122,11 @@
 }
 
 .selection-container .input-card-radio:checked::before {
-  color: #5c7d77;
+  color: #5c7d77!important;
 }
 
 .selected {
-  border: none;
+  border: none!important;
 }
 
 .card-list.selected .card-title {
@@ -131,4 +139,14 @@
 
 .consent-checkbox {
   color: #5c7d77;
+}
+
+.loading-spinner div {
+  border: 6px solid #5c7d77;
+  border-color: #5c7d77 transparent transparent transparent;
+}
+
+.loading-spinner-mini div {
+  border: 3px solid #5c7d77;
+  border-color: #5c7d77 transparent transparent transparent;
 }
