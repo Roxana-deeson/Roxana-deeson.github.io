@@ -1,0 +1,1 @@
+alert('Hello i am the BODY script tag');
