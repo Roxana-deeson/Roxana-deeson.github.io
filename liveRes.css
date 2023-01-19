@@ -26,11 +26,15 @@
   color: #fff;
 }
 
-.eventJourneyContainer .widget-header .booking-reference .reference-number {
+.eventJourneyContainer .widget-header .booking-reference {
   color: #d0a75b;
 }
 
-.eventJourneyContainer .summary-header .summary-header-title {
+.reference-number {
+  color: white;
+}
+
+.eventJourneyContainer .summary-header .summary-header-title, .summary-icon {
   color: #273d3e;
 }
 
@@ -58,7 +62,6 @@
 .dateSelection .timePickerColumn .time-select-container .time-select__option--is-selected {
   background: #5c7d77;
   color: white;
-
 }
 
 .nav-tab .nav-link {
@@ -107,6 +110,7 @@
 .btn-primary:active {
   background: #d0a75b;
   border-color: #d0a75b;
+  color: black;
   box-shadow: 0 0 0 0.2rem #d0a75b80;
 }
 
