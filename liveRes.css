@@ -31,14 +31,14 @@
 }
 
 .reference-number {
-  color: white;
+  color: white!imprtant;
 }
 
-.eventJourneyContainer .summary-header .summary-header-title, .summary-icon {
+.eventJourneyContainer .summary-header .summary-header-title {
   color: #273d3e;
 }
 
-.eventJourneyContainer .summary-header .summary-header-icon {
+.eventJourneyContainer .summary-header .summary-header-icon, .summary-icon {
   color: #5c7d77;
 }
 
@@ -119,6 +119,11 @@
   border-color: #d0a75b;
   color: black;
   cursor: not-allowed;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active {
+  background: #d0a75b;
+  color: black;
 }
 
 .input-text,
